@@ -61,3 +61,73 @@
 .btn:hover{
     color: greenyellow;
 }
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 10px;
+}
+.about-title{
+    text-align: center;
+    padding-top: 20px;
+}
+.box{
+    width: 230px;
+    height: 280px;
+    box-shadow: 10px 10px 20px 20px gray;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+.icon{
+    width: 70px;
+}
+.box-btn{
+    background-color: grey;
+    margin-top: 10px;
+
+}
+.box-title{
+    padding: 10px;
+    
+}
+.box-description{
+    padding: 5px;
+
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color:black;
+}
+.service-title{
+    color: white;
+    background-color: black;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color:black;
+    color: white;
+    
+}
+.sec1{
+    padding-left: 50px;
+
+}
+footer{
+    padding: 50px;
+    background-color: black;
+}
+.footer-head{
+    font-size: 28px;
+}
+.footer-down-text{
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
